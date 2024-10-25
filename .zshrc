@@ -11,11 +11,14 @@ alias v='nvim'
 alias s='cd ~/School'
 alias c='clear'
 alias mp='cd ~/My_Projects'
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit'
+alias gp='git pull'
 
 set -o vi
 
 export PATH=$PATH:$(go env GOPATH)/bin
-export PATH="$HOME/.emacs.d/bin:$PATH"
 
 source $ZSH/oh-my-zsh.sh
 source <(fzf --zsh)
