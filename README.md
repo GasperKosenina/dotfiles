@@ -1,3 +1,3 @@
 ```
-stow .
+stow zsh tmux nvim
 ```
