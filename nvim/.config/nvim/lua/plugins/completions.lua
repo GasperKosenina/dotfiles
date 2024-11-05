@@ -41,6 +41,9 @@ return {
 					{ name = "buffer" },
 				}),
 			})
+			cmp.setup.filetype("markdown", {
+				enabled = false,
+			})
 		end,
 	},
 }
