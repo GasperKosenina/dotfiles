@@ -9,8 +9,9 @@ return {
 			javascriptreact = { "prettierd" },
 			typescriptreact = { "prettierd" },
 			markdown = { "prettierd" },
-			go = { "gofumpt", "goimports" },
+			vue = { " prettierd" },
 			json = { "prettierd" },
+			go = { "gofumpt", "goimports" },
 			python = { "isort", "black" },
 		},
 		format_on_save = {
